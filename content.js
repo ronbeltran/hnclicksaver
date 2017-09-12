@@ -1,5 +1,5 @@
 $(".storylink").click(function(e) {
-  var parent = $(e.target).parent().parent();
+  var parent = $(e.target).closest("tr");
   var commentsUrl = "https://news.ycombinator.com/item?id=" + parent.attr('id');
 
   // open the link
