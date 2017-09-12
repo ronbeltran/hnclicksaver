@@ -1,6 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HN Click",
+  "description": "Save clicks when browsing Hacker News. Opens story link and comments in new tab.",
   "version": "0.1",
   "permissions": [
     "tabs"
