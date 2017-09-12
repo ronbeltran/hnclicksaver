@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "HN Click",
+  "version": "0.1",
+  "content_scripts": [{
+    "matches": [
+      "https://news.ycombinator.com/*",
+      "http://news.ycombinator.com/*"
+    ],
+    "js": [
+      "./lib/jquery-2.2.4.min.js",
+      "content.js"
+    ]
+  }],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+}
