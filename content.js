@@ -1,4 +1,4 @@
-$(".storylink").click(function(e) {
+$(".titlelink").click(function(e) {
   var parent = $(e.target).closest("tr");
   var commentsUrl = "https://news.ycombinator.com/item?id=" + parent.attr('id');
 
